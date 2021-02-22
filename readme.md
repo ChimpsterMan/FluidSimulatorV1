@@ -1,15 +1,12 @@
-3D Mill
+Fluid Simulator V1
 Written in c++ and compiled with libraries for 64bit;
 
 Requires VC_Redist 2015 or Later
 
-Instructions: 
- 	
-
-Menu Selections:
-	
-
-Controls: 
+Condition:
+	Unfinished while I work on other projects. There is a very annoying bug that I can't 
+quite seem to fix and other things are coming up at the time of development. If you wanna 
+try to fix it or see it check void update() in the FluidSimulator.h file.
 
 Installation (Project Files):
 1. Download the entire repository

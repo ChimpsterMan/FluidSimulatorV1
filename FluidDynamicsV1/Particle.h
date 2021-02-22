@@ -8,6 +8,8 @@ private:
 	float size;
 	float velocity;
 
+	std::vector<Particle*> neighbors = std::vector<Particle*>();
+
 public:
 	Particle() {
 		velocity = 0;
@@ -27,6 +29,10 @@ public:
 		this->velocity = velocity;
 	}
 
+	void setNeighbors(std::vector<Particle*> neighbors) {
+		this->neighbors = neighbors;
+	}
+
 	// getters
 	float getSize() {
 		return size;
@@ -34,6 +40,10 @@ public:
 
 	float getVelocity() {
 		return velocity;
+	}
+
+	std::vector<Particle*> getNeighbors() {
+		return neighbors;
 	}
 };
 
